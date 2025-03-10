@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Ana\\Projects\\UsersManager\\UsersManager\\UsersManager.csproj": {}
+    "C:\\Users\\Ana\\Projects\\UsersManager\\UsersManager.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Ana\\Projects\\UsersManager\\UsersManager\\UsersManager.csproj": {
+    "C:\\Users\\Ana\\Projects\\UsersManager\\UsersManager.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Ana\\Projects\\UsersManager\\UsersManager\\UsersManager.csproj",
+        "projectUniqueName": "C:\\Users\\Ana\\Projects\\UsersManager\\UsersManager.csproj",
         "projectName": "UsersManager",
-        "projectPath": "C:\\Users\\Ana\\Projects\\UsersManager\\UsersManager\\UsersManager.csproj",
+        "projectPath": "C:\\Users\\Ana\\Projects\\UsersManager\\UsersManager.csproj",
         "packagesPath": "C:\\Users\\Ana\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Ana\\Projects\\UsersManager\\UsersManager\\obj\\",
+        "outputPath": "C:\\Users\\Ana\\Projects\\UsersManager\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
