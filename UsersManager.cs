@@ -2,7 +2,7 @@ namespace UsersManager
 {
     public class UsersManager
     {
-        private List<User> users = new List<User>();
+        private static List<User> users = new List<User>();
 
         public void AddUser(User newUser)
         {
@@ -18,9 +18,11 @@ namespace UsersManager
                 throw new Exception();
         }
 
-        public void DeleteUser(User user)
+        public void DeleteUser(Guid userId)
         {
-            users.Remove(user);
+            var userToDelete = users.FirstOrDefault(u => u.Id == userId);
+            if (userToDelete != null)
+                users.Remove(userToDelete);
         }
 
         public List<User> GetUsers() 

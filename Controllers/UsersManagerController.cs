@@ -27,9 +27,9 @@ namespace UsersManager.Controllers
         }
 
         [HttpDelete(Name = "DeleteUser")]
-        public void Delete(User user)
+        public void Delete(Guid userId)
         {
-            usersManager.DeleteUser(user);
+            usersManager.DeleteUser(userId);
         }
     }
 }
